@@ -4,33 +4,153 @@
   margin:0;
 }
 
+body{
+  font-family: 'Montserrat', sans-serif;
+}
 .container{
   width: 80%;
   padding: 30px 0;
   margin: auto;
 }
 
-header::after {
+.container::after {
   content: "";
   display: block;
   clear: both;
 }
 
-.leng-conct{
+.lang-conct{
   float: left;
   width: 50%;
+  text-align: left;
 }
 
 .fa-globe-europe{
   color: #32495b;
 }
 
-select{
+.menu-inline li {
+  display: inline-block;
+  padding: 5px 5px;
+  list-style: none;
+  padding: 0 10px;
+}
+
+/* select{
   border-width: 0px 0px 0px 0px;
   color: #32495b;
+} */
+
+.conctact{
+  text-decoration: none;
+  color: #32495b;
+  border-left: 2px solid  #899397;
+  padding-left: 10px;
 }
+
 .serch{
   float: left;
   width: 50%;
-  background-color: blue;
+  text-align: right;
+}
+
+.fa-search{
+  display: inline-block;
+  color:#66c6d7;
+}
+
+.first-right-button{
+  margin: 4px 2px;
+  border-color: #fe775a;
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  background-color: #fe775a;
+  text-decoration: none;
+}
+
+.login{
+  margin: 4px 2px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  border-color: #fe775a;
+  background-color: #fff;
+  color: #fe775a;
+  border: 2px solid #ffffff;
+}
+
+.header-img{
+  background-image: url(../img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: #fff4ef;
+  height: 529px;
+
+}
+
+.header-down::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.header-top-logo {
+    float: left;
+    width: 50%;
+    padding-top: 5px;
+}
+
+.header-top-nav-left {
+    float: left;
+    width: 50%;
+    margin-bottom: 50px;
+    text-align: right;
+    padding-top: 5px;
+}
+
+
+.header-down li a{
+  color: #32495b;
+  text-decoration: none;;
+}
+
+.fa-chevron-down{
+  color: #32495b;
+  padding: 10px;
+}
+
+.banner h1{
+  width: 50%;
+  color: #32495b;
+  font-size: 40px;
+  padding-top: 50px;
+}
+
+p{
+  width: 50%;
+  line-height: 30px;
+  color: #32495b;
+  font-size: 18px;
+  margin: 30px 0;
+}
+
+.second-down-button{
+  border-color: #fe775a;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 5px;
+  background-color: #fe775a;
+  text-decoration: none;
+}
+
+h5{
+  color: #32495b;
+  padding: 30px 0;
+}
+
+.border-down-img{
+  background-color:#afebe4;
+  height: 80px;
+  border: 3px solid #33475b;
+
 }
