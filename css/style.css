@@ -8,6 +8,7 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
+/* header */
 .container{
   width: 80%;
   padding: 30px 0;
@@ -20,6 +21,7 @@ body{
   clear: both;
 }
 
+/* <!-- header-up --> */
 .lang-conct{
   float: left;
   width: 50%;
@@ -83,6 +85,9 @@ body{
   border: 2px solid #fe775a;
   cursor: pointer;
 }
+/* <!-- /header-up --> */
+
+/* <!-- header-down --> */
 
 .header-img{
   background-image: url(../img/jumbotron.png);
@@ -157,13 +162,17 @@ h5{
   height: 80px;
   border-top: 3px solid #33475b;
   border-bottom: 3px solid #33475b;
-
 }
 
 h2{
   margin: auto;
   color: #32495b;
 }
+/* <!-- /header-down --> */
+
+/* /header */
+
+/* main */
 
 .main-container,.inside-container{
   width: 70%;
@@ -176,6 +185,8 @@ h2{
   clear: both;
   display: block;
 }
+
+/* <!-- first-block --> */
 
 .main-first{
   float: left;
@@ -200,7 +211,10 @@ h2{
   padding: 20px 50px;
   font-size: 18px;
 }
+/* <!--/ first-block --> */
 
+
+/* <!-- second-block --> */
 .book-learnemore{
   float: left;
   width: 20%;
@@ -266,8 +280,12 @@ h2{
 
 .fa-check-circle{
   color: #fe775a;
-
 }
+/* <!-- /second-block --> */
+
+
+/* <!-- column+img --> */
+
 .col{
   float: left;
   width: 33%;
@@ -319,7 +337,10 @@ h2{
   text-align: center;
   margin-top: 30px;
 }
+/* <!-- /column+img --> */
 
+
+/* <!-- tiffany-block --> */
 .section-tiffany{
   width: 100%;
   height: 700px;
@@ -333,6 +354,7 @@ h2{
   display: block;
 }
 
+/* p-tiffany */
 .inside-container h2{
   width: 80%;
   text-align: center;
@@ -347,7 +369,9 @@ h2{
   line-height: 30px;
   margin-bottom: 50px;
 }
+/*/ p-tiffany */
 
+/* column-4 */
 .col-4{
   float: left;
   width: 25%;
@@ -375,13 +399,19 @@ h2{
 .col-4 ul li:nth-of-type(3){
   font-size: 13px;
 }
+/* /column-4 */
 
+/* <!-- /tiffany-block --> */
+
+
+/* partner-block */
 .partner::after{
   content: "";
   clear: both;
   display: block;
 }
 
+/* number+p */
 .number{
   float: left;
   width: 30%;
@@ -403,7 +433,9 @@ h2{
   color: #32495b;
   line-height: 30px;
 }
+/* /number+p */
 
+/* logo */
 .partner-logo{
   float: left;
   width: 70%;
@@ -416,7 +448,11 @@ h2{
   padding: 20px 20px;
   text-align: right;
 }
+/* /logo */
 
+/* partner-block */
+
+/* last-title */
 .main-down::after{
   content: "";
   clear: both;
@@ -441,7 +477,9 @@ h2{
   line-height: 30px;
   padding: 30px 0;
 }
+/* /last-title */
 
+/* img-woman */
 .woman{
   float: left;
   width: 50%;
@@ -452,11 +490,17 @@ h2{
   height: 350px;
   margin-left:40%
 }
+/* /img-woman */
 
+/* /main */
+
+/* footer */
 footer{
   background-color: #32495b;
   height: 800px;
 }
+
+/* <!-- col-footer --> */
 
 .colum-footer::after{
   content: "";
@@ -533,3 +577,6 @@ h4{
   font-size: 18px;
   text-decoration: none;
 }
+/* <!-- /col-footer --> */
+
+/* /footer */
