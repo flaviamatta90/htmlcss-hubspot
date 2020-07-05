@@ -108,7 +108,7 @@ body{
 
 .header-down li a{
   color: #32495b;
-  text-decoration: none;;
+  text-decoration: none;
 }
 
 .fa-chevron-down{
@@ -440,4 +440,75 @@ h2{
   width: 300px;
   height: 350px;
   margin-left:40%
+}
+
+footer{
+  background-color: #32495b;
+  height: 800px;
+}
+
+.colum-footer::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.colonna{
+  float: left;
+  width: 25%;
+}
+
+h4{
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 20px 0;
+}
+
+.column-footer li{
+  color: #fff;
+  list-style: none;
+  line-height: 40px;
+}
+
+.last-button{
+  color: #32495b;
+  padding: 10px 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: #dadee0;
+}
+
+.social{
+  font-size: 20px;
+  padding: 0 10px;
+  color: #cbd6e2;
+  padding-bottom: 30px;
+}
+
+.last-section{
+  text-align: center;
+  color: #cbd6e2;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.legalnote::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.final-logo{
+  float: left;
+  width: 50%;
+}
+
+.privacy-policy{
+  float: left;
+  width: 50%;
+  text-align: right;
+  color: #cbd6e2;
+  margin-top: 50px;
+  font-size: 18px;
 }
