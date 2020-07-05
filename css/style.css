@@ -36,6 +36,10 @@ body{
   padding: 5px 5px;
 }
 
+.header-left a{
+  text-decoration: none;
+}
+
 /* select{
   border-width: 0px 0px 0px 0px;
   color: #32495b;
@@ -67,6 +71,7 @@ body{
   border-radius: 5px;
   background-color: #fe775a;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .login{
@@ -76,6 +81,7 @@ body{
   background-color: #fff;
   color: #fe775a;
   border: 2px solid #fe775a;
+  cursor: pointer;
 }
 
 .header-img{
@@ -138,6 +144,7 @@ body{
   border-radius: 5px;
   background-color: #fe775a;
   text-decoration: none;
+  cursor: pointer;
 }
 
 h5{
@@ -148,7 +155,9 @@ h5{
 .border-down-img{
   background-color:#afebe4;
   height: 80px;
-  border: 3px solid #33475b;
+  border-top: 3px solid #33475b;
+  border-bottom: 3px solid #33475b;
+
 }
 
 h2{
@@ -282,7 +291,7 @@ h2{
 
 .border{
   border-bottom: 2px solid grey;
-  margin: 30px 60px;
+  margin: 30px 40px;
 }
 
 
@@ -325,16 +334,18 @@ h2{
 }
 
 .inside-container h2{
+  width: 80%;
   text-align: center;
   color: #fff;
   font-size: 25px;
+  font-weight: bolder;
 }
 
 .inside-container p{
   text-align: center;
   color: #fff;
   line-height: 30px;
-  padding: 20px 0;
+  margin-bottom: 50px;
 }
 
 .col-4{
@@ -488,9 +499,14 @@ h4{
 
 .last-section{
   text-align: center;
+}
+
+.last-section a{
+  text-decoration: none;
   color: #cbd6e2;
   font-size: 18px;
   margin-bottom: 15px;
+
 }
 
 .legalnote::after{
@@ -502,13 +518,18 @@ h4{
 .final-logo{
   float: left;
   width: 50%;
+  margin-top: 30px;
 }
 
 .privacy-policy{
   float: left;
   width: 50%;
-  text-align: right;
-  color: #cbd6e2;
   margin-top: 50px;
+  text-align: right;
+}
+
+.privacy-policy a{
+  color: #cbd6e2;
   font-size: 18px;
+  text-decoration: none;
 }
