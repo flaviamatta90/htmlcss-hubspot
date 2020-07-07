@@ -95,26 +95,59 @@ body{
   background-position: right;
   background-color: #fff4ef;
   height: 529px;
+  position: relative;
+}
+
+.header-img::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.pop-up{
+  position:fixed;
+  float: right;
+  width: 8%;
+  height: 10%;
+  right: 10px;
+  bottom: 250px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.pop-up img{
+  width: 25px;
+  height: 25px;
+  margin-left: 40%;
+}
+
+.pop-up h6{
+  padding: 0px 15px;
+  line-height: 15px;
+}
+
+.fa-hand-spock{
+  color: orange;
 }
 
 .header-down::after {
-    content: "";
-    clear: both;
-    display: block;
+  content: "";
+  clear: both;
+  display: block;
 }
 
 .header-top-logo {
-    float: left;
-    width: 50%;
-    padding-top: 5px;
+  float: left;
+  width: 50%;
+  padding-top: 5px;
 }
 
 .header-top-nav-left {
-    float: left;
-    width: 50%;
-    margin-bottom: 50px;
-    text-align: right;
-    padding-top: 5px;
+  float: left;
+  width: 50%;
+  margin-bottom: 50px;
+  text-align: right;
+  padding-top: 5px;
 }
 
 .header-down li a{
