@@ -38,14 +38,14 @@ body{
   padding: 5px 5px;
 }
 
-.header-left a{
-  text-decoration: none;
-}
 
-/* select{
+select{
   border-width: 0px 0px 0px 0px;
   color: #32495b;
-} */
+  font-size: 18px;
+  color: #32495b;
+
+}
 
 .conctact{
   text-decoration: none;
@@ -96,38 +96,6 @@ body{
   background-color: #fff4ef;
   height: 529px;
   position: relative;
-}
-
-.header-img::after{
-  content: "";
-  clear: both;
-  display: block;
-}
-
-.pop-up{
-  position:fixed;
-  float: right;
-  width: 8%;
-  height: 10%;
-  right: 10px;
-  bottom: 250px;
-  background-color: #fff;
-  border-radius: 5px;
-}
-
-.pop-up img{
-  width: 25px;
-  height: 25px;
-  margin-left: 40%;
-}
-
-.pop-up h6{
-  padding: 0px 15px;
-  line-height: 15px;
-}
-
-.fa-hand-spock{
-  color: orange;
 }
 
 .header-down::after {
@@ -201,6 +169,66 @@ h2{
   margin: auto;
   color: #32495b;
 }
+
+/* popup */
+.header-img::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.pop-up{
+  position:fixed;
+  float: right;
+  width: 8%;
+  height: 12%;
+  right: 5px;
+  bottom: 250px;
+}
+
+.inside-popup{
+  position: absolute;
+  width: 100%;
+  display:none;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.pop-up:hover .inside-popup{
+  display: block;
+}
+
+.pop-up img{
+  width: 25px;
+  height: 25px;
+  margin-left: 40%;
+}
+
+.pop-up h6{
+  padding: 0px 15px;
+  line-height: 15px;
+}
+
+.fa-hand-spock{
+  color: orange;
+}
+
+.chat{
+  position:fixed;
+  display: inline-block;
+  background-color: #33475b;
+  border-radius: 100%;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  right: 55px;
+  bottom: 220px;
+  font-size: 30px;
+  color: #fff;
+  text-decoration: none;
+  }
+  /* /popup */
+
 /* <!-- /header-down --> */
 
 /* /header */
@@ -565,6 +593,7 @@ h4{
   margin-top: 20px;
   border-radius: 5px;
   background-color: #dadee0;
+  cursor: pointer;
 }
 
 .social{
