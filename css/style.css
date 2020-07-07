@@ -44,7 +44,6 @@ select{
   color: #32495b;
   font-size: 17px;
   color: #32495b;
-
 }
 
 .conctact{
@@ -121,6 +120,10 @@ select{
 .header-down li a{
   color: #32495b;
   text-decoration: none;
+}
+
+.header-down select{
+  background-color: #fff4ef;;
 }
 
 .fa-chevron-down{
@@ -213,7 +216,7 @@ h2{
   color: orange;
 }
 
-.chat{
+.chat a{
   position:fixed;
   display: inline-block;
   background-color: #33475b;
@@ -558,7 +561,7 @@ h2{
 /* footer */
 footer{
   background-color: #32495b;
-  height: 800px;
+  height: 700px;
 }
 
 /* <!-- col-footer --> */
@@ -596,11 +599,12 @@ h4{
   cursor: pointer;
 }
 
-.social{
+.social a{
   font-size: 20px;
-  padding: 0 10px;
+  padding: 0 3px;
   color: #cbd6e2;
   padding-bottom: 30px;
+  text-decoration: none;
 }
 
 .last-section{
@@ -609,6 +613,7 @@ h4{
 
 .last-section a{
   text-decoration: none;
+  text-decoration-color: none;
   color: #cbd6e2;
   font-size: 18px;
   margin-bottom: 15px;
